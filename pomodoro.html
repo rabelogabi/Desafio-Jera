@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Pomodoro</title>
+    <meta charset="utf-8" />
+    <title>Pomodoro-GabrielaRabelo</title>
+    <link rel="stylesheet" href="pomo.css" />
+    <link rel="stylesheet" href="pomo.js" />
+</head>
+
+<body>
+   <div id="pomodoro-app">
+    <div id="cont">
+      <div id="cronometro">
+        <div id="tempo">
+          <span id="minutes">25</span>
+          <span id="colon">:</span>
+          <span id="seconds">00</span>
+        </div>
+        <div id="filler"></div>
+      </div>
+  
+      <div id="buttons">
+        <button id="work">Pomodoro</button>
+        <button id="shortBreak">Intervalo curto</button>
+        <button id="longBreak">Intervalo longo</button>
+        <button id="stop">Parar</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="notification">
+		<source src="notification.mp3">
+
+  <script src="pomo.js"></script>
+
+  
+</body>
+</html>
